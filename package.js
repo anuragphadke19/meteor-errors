@@ -1,7 +1,7 @@
 Package.describe({
   summary: "A pattern to display application errors to the user",
   version: "1.0.0",
-  git: " \* Fill me in! *\ "
+  git: "https://github.com/anuragphadke19/meteor-errors"
 });
 
 Package.onUse(function(api) {
@@ -16,7 +16,7 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use(['tinytest', 'test-helpers'], 'client');
   api.use('anuragphadke19:errors', 'client');
-  api.addFiles('errors-tests.js', 'client');
+  api.addFiles('errors_tests.js', 'client');
 });
 
 
